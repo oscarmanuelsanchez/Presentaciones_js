@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pruebas Javascript</title>
+        <script>
+            //CUadrado de dialogo de confirmación en javascript
+            function confirmarAccesoURL()
+            {
+                return confirm("¿ Esta seguro que desea acceder a la web?")
+            }
+        </script>
+    </head>
+    <body>
+        <p>Ejemplo de acceso a sitio web, previa confirmación</p>
+        <a href="https://www.proyectoa.com" onclick="return confirmarAccesoURL()"> acceder a ProyectoA</a>
+    </body>
+</html>
